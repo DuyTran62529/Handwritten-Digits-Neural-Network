@@ -10,10 +10,10 @@ test_im, test_lab = mndata.load_testing()
 print('Test: im=%s, lab=%s' % (len(test_im), len(test_lab)))
 
 ipn = len(test_im[0])
-l1n = 32
-l2n = 32
-l3n = 32
-l4n = 32
+l1n = 64
+l2n = 64
+l3n = 64
+l4n = 64
 opn = 10
 
 display_im(test_im, test_lab,5)

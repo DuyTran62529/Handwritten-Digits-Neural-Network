@@ -11,5 +11,5 @@ Library required:
 		Training set accuracy: 96%
 		Testing set accuracy: 93%
 	Neural network model using the ReLu activation function and Sotmax for output: train.py; test.py
-		Training set accuracy: 97%
-		Testing set accuracy: 94%
+		Training set accuracy: 98.5%
+		Testing set accuracy: 95%

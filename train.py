@@ -11,10 +11,10 @@ print('Train: im=%s, lab=%s' % (len(train_im), len(train_lab)))
 
 alph = 0.1
 ipn = len(train_im[0])
-l1n = 32
-l2n = 32
-l3n = 32
-l4n = 32
+l1n = 64
+l2n = 64
+l3n = 64
+l4n = 64
 opn = 10
 
 # display_im(train_im, train_lab,5)
@@ -55,7 +55,7 @@ for i in range(len(train_lab)):
 	res[i][train_lab[i]] = 1
 
 newCost = 2
-limit = 0.05
+limit = 0.06
 
 while (newCost > limit):
 
